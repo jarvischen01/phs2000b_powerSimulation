@@ -21,4 +21,4 @@ Note that, as we saw in class, we had to tweak the code and calibrate the simula
 
 Note that glmer() does take some time to fit each model, so the entire simulation does take some time to run -- approximately an hour.
 
-![power curve](power_simulation_logistic_mixed.pdf)
+![power curve](power_simulation_logistic_mixed.png)
