@@ -78,7 +78,7 @@ for (j in 1:length(beta_poverty)){
 apply(results<0.05, 2, sum)/n_sim
 
 
-pdf("power_simulation_logistic_mixed.pdf", width=8, height=5)
+png("power_simulation_logistic_mixed.png")
 plot(exp(beta_poverty), apply(results<0.05, 2, sum)/n_sim, ylab = "Power", xlab = "Odds Ratio (poverty)")
 lines(exp(beta_poverty),apply(results<0.05, 2, sum)/n_sim)
 abline(h=0.8, lty = 2)
