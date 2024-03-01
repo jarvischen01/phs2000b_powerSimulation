@@ -22,3 +22,5 @@ Note that, as we saw in class, we had to tweak the code and calibrate the simula
 Note that glmer() does take some time to fit each model, so the entire simulation does take some time to run -- approximately an hour.
 
 ![power curve](power_simulation_logistic_mixed.png)
+
+We only explored three values for the odds ratio relating cluster poverty to the odds of the binary outcome, but we can see that we have power of 80% and above for odds ratios as small as 1.4.
